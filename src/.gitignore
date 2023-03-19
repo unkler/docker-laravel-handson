@@ -4,6 +4,7 @@
 /public/storage
 /storage/*.key
 /vendor
+_ide_helper_models.php
 .env
 .env.backup
 .env.production
