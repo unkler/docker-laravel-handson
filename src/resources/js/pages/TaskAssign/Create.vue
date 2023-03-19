@@ -1,7 +1,7 @@
 <template>
   <div class="w-full bg-gray-100 dark:bg-gray-700">
     <div class="flex mt-10 mx-4"> 
-      <h2 class="font-medium text-gray-800 mr-5 dark:text-gray-400">作業登録</h2>
+      <h2 class="font-medium text-gray-800 mr-5 dark:text-gray-400">タスク登録</h2>
     </div>
     <div v-if="isLoading.clientsWithWorkplaces || isLoading.employees">
       <img src="/storage/images/loading.gif" class="mx-auto mt-20" />

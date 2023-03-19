@@ -1,7 +1,7 @@
 <template>
   <div class="w-full bg-gray-100 dark:bg-gray-700">
     <div class="flex mt-10 mx-4"> 
-      <h2 class="font-medium text-gray-800 mr-5 dark:text-gray-400">作業一覧</h2>
+      <h2 class="font-medium text-gray-800 mr-5 dark:text-gray-400">タスク一覧</h2>
       <div @click="getTaskAssign(true)" :class="{'bg-gray-700 text-white dark:bg-white dark:text-gray-800': isAfterToday}" class="bg-white text-sm rounded-xl p-2 mr-2 cursor-pointer dark:bg-gray-800 dark:text-white">本日以降分</div>
       <div @click="getTaskAssign(false)" :class="{'bg-gray-700 text-white dark:bg-white dark:text-gray-800': !isAfterToday }" class="bg-white text-sm rounded-xl p-2 cursor-pointer dark:bg-gray-800 dark:text-white">過去分</div>
       <router-link :to="{ name: 'taskAssignCreate' }" class="flex text-xs ml-auto text-white bg-blue-800 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-600">
